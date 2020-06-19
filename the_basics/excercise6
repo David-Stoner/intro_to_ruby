@@ -1,0 +1,7 @@
+number1 = Random.rand() * 10
+number2 = Random.rand() * 10
+number3 = Random.rand() * 10
+
+numbers = [number1, number2, number3]
+
+numbers.each { |value| puts "Square of #{value} is #{value**2}" }
