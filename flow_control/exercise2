@@ -1,0 +1,8 @@
+def capitalize(string)
+  string.length > 10 ? string.upcase : string
+end
+
+puts "What would you like to say?"
+shout = gets.chomp
+
+puts capitalize(shout)
