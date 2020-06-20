@@ -1,0 +1,9 @@
+answer = "go"
+
+while answer do
+  puts "Should we go or stop?"
+  answer = gets.chomp.downcase
+  if answer == "stop"
+    break
+  end
+end
