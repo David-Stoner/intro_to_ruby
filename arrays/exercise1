@@ -1,0 +1,4 @@
+arr = [1,3,5,7,8,11]
+puts "What number would you like to check?"
+test = gets.chomp.to_i
+puts arr.include?(test) ? "Yes that is in there." : "Nope, not here."
