@@ -1,0 +1,4 @@
+hash = { letters: "a" }
+p hash
+hash2 = { :letters => "b" }
+p hash2
