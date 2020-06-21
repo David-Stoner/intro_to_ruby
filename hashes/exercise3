@@ -1,0 +1,9 @@
+family = {  uncles: ["bob", "joe", "steve"],
+            sisters: ["jane", "jill", "beth"],
+            brothers: ["frank","rob","david"],
+            aunts: ["mary","sally","susan"]
+          }
+          
+puts "keys are #{family.keys}"
+puts "values are #{family.values}"
+puts "both together are #{family}"

@@ -1,0 +1,6 @@
+person = {name: 'Bob', occupation: 'web developer', hobbies: 'painting'}
+
+puts "What are you looking for?"
+search = gets.chomp
+
+p person.has_value?(search) ? "#{search} is here" : "#{search} is not here"

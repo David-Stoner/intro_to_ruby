@@ -1,0 +1,19 @@
+family = {  uncles: ["bob", "joe", "steve"],
+            aunts: ["mary","sally","susan"]
+          }
+
+close_family = {  sisters: ["jane", "jill", "beth"],
+                  brothers: ["frank","rob","david"],
+                }
+                
+puts "family hash is"
+p family
+puts "close_family is"
+p close_family
+puts "merged full_family is"
+p full_family = family.merge(close_family)
+puts "after merge family is still"
+p family
+
+puts "after merge! family is"
+p family.merge!(close_family)
