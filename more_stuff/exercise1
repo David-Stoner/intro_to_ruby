@@ -1,0 +1,6 @@
+def has_lab?(string)
+ puts /lab/.match(string) ? "#{string} has a lab" : "#{string} no lab here"
+end
+
+words = ["laboratory", "experiment", "Pans labyrinth", "elaborate", "polar bear"]
+words.each { |word| has_lab?(word.downcase) }
